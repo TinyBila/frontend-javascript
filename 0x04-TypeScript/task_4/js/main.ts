@@ -3,15 +3,19 @@ import { Subjects as SubjectsJava } from "./subjects/Java";
 import { Subjects as SubjectsReact } from "./subjects/React";
 
 // Create and export a constant cpp for Cpp subject
+const cpp = new Cpp()
 export const cpp = new Subjects.Cpp();
 
 // Create and export a constant java for Java subject
+const java = new Java()
 export const java = new SubjectsJava.Java();
 
 // Create and export a constant react for React subject
+const react = new React()
 export const react = new SubjectsReact.React();
 
 // Create and export one Teacher object cTeacher with experienceTeachingC = 10
+cTeacher: Teacher
 export const cTeacher: Subjects.Teacher = {
   firstName: "John",
   lastName: "Doe",
